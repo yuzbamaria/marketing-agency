@@ -1,4 +1,4 @@
-/*Default styles for the whole page*/
+/* Default styles for the whole page */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -18,7 +18,7 @@ p {
     font-size: 16px;
 }
 
-/*Styles for the navigation bar*/
+/* Styles for the navigation bar */
 
 .navbar {
     padding: 20px;
@@ -64,7 +64,7 @@ p {
     background-position: center;
 }
 
-/*Styles for the main section*/
+/*Styles for the main section (left side) */
 .content {
     width: 75%;
     display: inline-block;
@@ -81,7 +81,9 @@ p {
     margin-left: 25px;
 }
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+.search-engine-optimization, 
+.online-reputation-management, 
+.social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -90,32 +92,19 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+.search-engine-optimization img, 
+.online-reputation-management img, 
 .social-media-marketing img {
     max-height: 200px;
 }
-
+.search-engine-optimization h2,
+.online-reputation-management h2,
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Styles for the main section (right side) */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -127,45 +116,29 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead, .benefit-brand, .benefit-cost {
+.benefit-lead, 
+.benefit-brand, 
+.benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h2 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand h2 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+.benefit-lead h2,
+.benefit-brand h2,
 .benefit-cost h2 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+.benefit-lead img,
+.benefit-brand img,
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/*S tyles for the footer section */
+/* Styles for the footer section */
 .footer_text {
     padding: 30px;
     clear: both;
