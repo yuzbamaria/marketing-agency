@@ -4,4 +4,4 @@
 
 A link to the deployed application – https://yuzbamaria.github.io/marketing-agency/ 
 
-![screenshot_website_marketing_agency](assets/images/yuzbamaria.github.io_marketing-agency_ screenshot.png)
+![screenshot_website_marketing_agency](assets/images/yuzbamaria.github.io_marketing-agency_screenshot.png)
